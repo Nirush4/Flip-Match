@@ -114,3 +114,9 @@ Works in all modern browsers that support:
 - ES6+ JavaScript
 - CSS 3D Transforms
 - Web Audio API (for sound effects)
+
+## Author 👨‍💻​
+
+• Nirushan Rajamanoharan (@Nirush4)
+
+**Happy coding!**
