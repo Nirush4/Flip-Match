@@ -117,6 +117,6 @@ Works in all modern browsers that support:
 
 ## Author 👨‍💻​
 
-• Nirushan Rajamanoharan (@Nirush4)
+• Nirushan Rajamanoharan [@Nirush4](https://github.com/Nirush4)
 
 **Happy coding!**
