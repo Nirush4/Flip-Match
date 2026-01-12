@@ -81,7 +81,7 @@ function App() {
 
           {/* Difficulty Selection */}
           <div className='mb-8'>
-            <h2 className='flex items-center gap-2 mb-4 text-lg font-bold text-gray-800 sm:text-2xl'>
+            <h2 className='flex items-center gap-2 mb-4 text-lg font-bold text-gray-800 sm:text-xl'>
               <span className='text-purple-500'>●</span> Choose Difficulty
             </h2>
             <div className='grid grid-cols-1 gap-4 sm:grid-cols-3'>
@@ -108,7 +108,7 @@ function App() {
                       <div className='absolute inset-0 bg-white/20 animate-pulse' />
                     )}
                     <div className='relative z-10 flex items-start justify-between'>
-                      <div className='text-sm font-medium opacity-90'>
+                      <div className='text-base font-medium opacity-90'>
                         {config.pairs} pairs
                       </div>
                       {bestTimes[diff] !== null && (
@@ -117,7 +117,7 @@ function App() {
                         </div>
                       )}
                     </div>
-                    <div className='relative z-10 text-lg font-bold sm:text-2xl'>
+                    <div className='relative z-10 text-base font-bold sm:text-lg'>
                       {config.name}
                     </div>
                   </button>
@@ -127,7 +127,7 @@ function App() {
           </div>
 
           <div className='mb-10'>
-            <h2 className='flex items-center gap-2 mb-4 text-lg font-bold text-gray-800 sm:text-2xl'>
+            <h2 className='flex items-center gap-2 mb-4 text-lg font-bold text-gray-800 sm:text-xl'>
               <span className='text-blue-500'>●</span> Choose Theme
             </h2>
             <div className='grid grid-cols-1 gap-4 sm:grid-cols-3'>
@@ -152,12 +152,12 @@ function App() {
                     {isActive && (
                       <div className='absolute inset-0 bg-white/20 animate-pulse' />
                     )}
-                    <div className='relative z-10 text-3xl sm:text-4xl'>
+                    <div className='relative z-10 text-3xl'>
                       {t === 'emojis' && '😀'}
                       {t === 'icons' && '⭐'}
                       {t === 'numbers' && '🔢'}
                     </div>
-                    <div className='relative z-10 text-sm font-semibold sm:text-base'>
+                    <div className='relative z-10 text-base font-bold sm:text-lg'>
                       {t}
                     </div>
                   </button>

@@ -44,7 +44,7 @@ export const Board: React.FC<BoardProps> = ({
 
   return (
     <div
-      className={`grid ${getGridCols()} gap-2 sm:gap-3 md:gap-4 p-2 sm:p-4 ${getMaxWidth()} mx-auto`}
+      className={`grid ${getGridCols()} gap-2 sm:gap-3  p-2 sm:p-4 ${getMaxWidth()} mx-auto`}
       role='grid'
       aria-label='Memory game board'
     >
@@ -55,7 +55,7 @@ export const Board: React.FC<BoardProps> = ({
           style={{ aspectRatio: '1' }}
           role='gridcell'
         >
-          <div className='w-full h-full max-w-[120px] sm:max-w-[140px] md:max-w-[160px] mx-auto'>
+          <div className='w-full h-full max-w-[160px] sm:max-w-[180px] md:max-w-[200px] mx-auto'>
             <Card
               card={card}
               onClick={() => onCardClick(card.id)}
